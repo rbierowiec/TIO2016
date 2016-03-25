@@ -1,0 +1,22 @@
+﻿using System.ServiceModel;
+using ComicAdventureDTO;
+
+namespace WcfServiceLibrary1
+{
+    [ServiceContract]
+    public interface IService1
+    {
+        [OperationContract]
+        void InitializeGame();
+
+        [OperationContract]
+        Starship SendStarship(Starship starship, string systemName);
+
+        [OperationContract]
+        SpaceSystem GetSystem();
+
+        [OperationContract]
+        Starship GetStarship(int money);
+
+    }
+}
