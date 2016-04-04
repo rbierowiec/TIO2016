@@ -1,0 +1,8 @@
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDClient\CRUDClient\bin\Debug\CRUDClient.exe.config
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDClient\CRUDClient\bin\Debug\CRUDClient.exe
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDClient\CRUDClient\bin\Debug\CRUDClient.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDClient\CRUDClient\obj\Debug\CRUDClient.csprojResolveAssemblyReference.cache
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDClient\CRUDClient\obj\Debug\CRUDClient.exe
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDClient\CRUDClient\obj\Debug\CRUDClient.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDClient\CRUDClient\bin\Debug\ObjectsManager.Model.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDClient\CRUDClient\bin\Debug\ObjectsManager.Model.pdb

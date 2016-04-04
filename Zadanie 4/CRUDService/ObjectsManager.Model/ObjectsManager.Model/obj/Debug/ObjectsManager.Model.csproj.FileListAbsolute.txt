@@ -1,0 +1,5 @@
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Model\ObjectsManager.Model\bin\Debug\ObjectsManager.Model.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Model\ObjectsManager.Model\bin\Debug\ObjectsManager.Model.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Model\ObjectsManager.Model\obj\Debug\ObjectsManager.Model.csprojResolveAssemblyReference.cache
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Model\ObjectsManager.Model\obj\Debug\ObjectsManager.Model.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Model\ObjectsManager.Model\obj\Debug\ObjectsManager.Model.pdb

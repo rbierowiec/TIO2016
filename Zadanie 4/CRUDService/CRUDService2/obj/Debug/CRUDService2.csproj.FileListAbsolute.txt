@@ -1,0 +1,14 @@
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\CRUDService2.dll.config
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\CRUDService2.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\CRUDService2.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\ObjectsManager.DBLite.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\ObjectsManager.Interface.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\ObjectsManager.Model.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\LiteDB.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\ObjectsManager.DBLite.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\ObjectsManager.Interface.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\ObjectsManager.Model.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\bin\Debug\LiteDB.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\obj\Debug\CRUDService2.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\obj\Debug\CRUDService2.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\Zadanie4\CRUDService\CRUDService2\obj\Debug\CRUDService2.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Interface\bin\Debug\ObjectsManager.Interface.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Interface\bin\Debug\ObjectsManager.Interface.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Interface\bin\Debug\LiteDB.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Interface\bin\Debug\ObjectsManager.Model.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Interface\bin\Debug\ObjectsManager.Model.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Interface\bin\Debug\LiteDB.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Interface\obj\Debug\ObjectsManager.Interface.csprojResolveAssemblyReference.cache
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Interface\obj\Debug\ObjectsManager.Interface.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.Interface\obj\Debug\ObjectsManager.Interface.pdb

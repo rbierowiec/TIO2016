@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CRUDService2" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ObjectsManager.Model" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICRUDService2_GetAllReviews_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllReviews" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_GetAllReviews_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllReviewsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_GetReviewsByMovieId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReviewsByMovieId" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_GetReviewsByMovieId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReviewsByMovieIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_GetReviewsByAuthor_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetReviewsByAuthor" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_GetReviewsByAuthor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetReviewsByAuthorResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_GetAllAuthors_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAuthors" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_GetAllAuthors_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllAuthorsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_AddReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddReview" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_AddReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_AddAuthor_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAuthor" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_AddAuthor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAuthorResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_getReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:getReview" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_getReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_getAuthorById_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAuthorById" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_getAuthorById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAuthorByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_getAuthorByName_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAuthorByName" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_getAuthorByName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAuthorByNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_UpdateReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateReview" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_UpdateReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_UpdateAuthor_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAuthor" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_UpdateAuthor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAuthorResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_deleteReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteReview" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_deleteReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_deleteAuthor_InputMessage">
+    <wsdl:part name="parameters" element="tns:deleteAuthor" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDService2_deleteAuthor_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteAuthorResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICRUDService2">
+    <wsdl:operation name="GetAllReviews">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/GetAllReviews" message="tns:ICRUDService2_GetAllReviews_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/GetAllReviewsResponse" message="tns:ICRUDService2_GetAllReviews_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReviewsByMovieId">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/GetReviewsByMovieId" message="tns:ICRUDService2_GetReviewsByMovieId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/GetReviewsByMovieIdResponse" message="tns:ICRUDService2_GetReviewsByMovieId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReviewsByAuthor">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/GetReviewsByAuthor" message="tns:ICRUDService2_GetReviewsByAuthor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/GetReviewsByAuthorResponse" message="tns:ICRUDService2_GetReviewsByAuthor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAuthors">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/GetAllAuthors" message="tns:ICRUDService2_GetAllAuthors_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/GetAllAuthorsResponse" message="tns:ICRUDService2_GetAllAuthors_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/AddReview" message="tns:ICRUDService2_AddReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/AddReviewResponse" message="tns:ICRUDService2_AddReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAuthor">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/AddAuthor" message="tns:ICRUDService2_AddAuthor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/AddAuthorResponse" message="tns:ICRUDService2_AddAuthor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/getReview" message="tns:ICRUDService2_getReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/getReviewResponse" message="tns:ICRUDService2_getReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAuthorById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/getAuthorById" message="tns:ICRUDService2_getAuthorById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/getAuthorByIdResponse" message="tns:ICRUDService2_getAuthorById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAuthorByName">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/getAuthorByName" message="tns:ICRUDService2_getAuthorByName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/getAuthorByNameResponse" message="tns:ICRUDService2_getAuthorByName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/UpdateReview" message="tns:ICRUDService2_UpdateReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/UpdateReviewResponse" message="tns:ICRUDService2_UpdateReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAuthor">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/UpdateAuthor" message="tns:ICRUDService2_UpdateAuthor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/UpdateAuthorResponse" message="tns:ICRUDService2_UpdateAuthor_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/deleteReview" message="tns:ICRUDService2_deleteReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/deleteReviewResponse" message="tns:ICRUDService2_deleteReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteAuthor">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDService2/deleteAuthor" message="tns:ICRUDService2_deleteAuthor_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDService2/deleteAuthorResponse" message="tns:ICRUDService2_deleteAuthor_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICRUDService2" type="tns:ICRUDService2">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllReviews">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/GetAllReviews" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReviewsByMovieId">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/GetReviewsByMovieId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReviewsByAuthor">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/GetReviewsByAuthor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllAuthors">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/GetAllAuthors" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddReview">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/AddReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAuthor">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/AddAuthor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getReview">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/getReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAuthorById">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/getAuthorById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAuthorByName">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/getAuthorByName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateReview">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/UpdateReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAuthor">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/UpdateAuthor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteReview">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/deleteReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAuthor">
+      <soap:operation soapAction="http://tempuri.org/ICRUDService2/deleteAuthor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CRUDService2">
+    <wsdl:port name="BasicHttpBinding_ICRUDService2" binding="tns:BasicHttpBinding_ICRUDService2">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/CRUDService2/Service2" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

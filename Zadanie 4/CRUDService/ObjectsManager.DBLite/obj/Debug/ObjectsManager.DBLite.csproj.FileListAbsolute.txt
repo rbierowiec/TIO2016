@@ -1,0 +1,11 @@
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\bin\Debug\ObjectsManager.DBLite.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\bin\Debug\ObjectsManager.DBLite.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\bin\Debug\LiteDB.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\bin\Debug\ObjectsManager.Interface.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\bin\Debug\ObjectsManager.Model.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\bin\Debug\ObjectsManager.Interface.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\bin\Debug\ObjectsManager.Model.pdb
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\bin\Debug\LiteDB.xml
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\obj\Debug\ObjectsManager.DBLite.csprojResolveAssemblyReference.cache
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\obj\Debug\ObjectsManager.DBLite.dll
+c:\users\rafael\documents\visual studio 2015\Projects\Zadanie4\CRUDService\ObjectsManager.DBLite\obj\Debug\ObjectsManager.DBLite.pdb
