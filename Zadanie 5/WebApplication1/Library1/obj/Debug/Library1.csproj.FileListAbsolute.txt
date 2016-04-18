@@ -1,0 +1,4 @@
+c:\Users\Rafael\documents\visual studio 2015\Projects\Zadanie4\WebApplication1\Library1\bin\Debug\Library1.dll
+c:\Users\Rafael\documents\visual studio 2015\Projects\Zadanie4\WebApplication1\Library1\bin\Debug\Library1.pdb
+c:\Users\Rafael\documents\visual studio 2015\Projects\Zadanie4\WebApplication1\Library1\obj\Debug\Library1.dll
+c:\Users\Rafael\documents\visual studio 2015\Projects\Zadanie4\WebApplication1\Library1\obj\Debug\Library1.pdb

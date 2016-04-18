@@ -1,0 +1,10 @@
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\WebApplication1\AuthorManager\bin\Debug\AuthorManager.dll.config
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\WebApplication1\AuthorManager\bin\Debug\AuthorManager.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\WebApplication1\AuthorManager\bin\Debug\AuthorManager.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\WebApplication1\AuthorManager\bin\Debug\Library1.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\WebApplication1\AuthorManager\bin\Debug\LiteDB.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\WebApplication1\AuthorManager\bin\Debug\Library1.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\WebApplication1\AuthorManager\bin\Debug\LiteDB.xml
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\WebApplication1\AuthorManager\obj\Debug\AuthorManager.dll
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\WebApplication1\AuthorManager\obj\Debug\AuthorManager.pdb
+C:\Users\Rafael\Documents\Visual Studio 2015\Projects\WebApplication1\AuthorManager\obj\Debug\AuthorManager.csprojResolveAssemblyReference.cache
