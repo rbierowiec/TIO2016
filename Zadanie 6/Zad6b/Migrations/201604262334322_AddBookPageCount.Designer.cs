@@ -13,7 +13,7 @@ namespace Zad6b.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201604262327504_AddBookPageCount"; }
+            get { return "201604262334322_AddBookPageCount"; }
         }
         
         string IMigrationMetadata.Source

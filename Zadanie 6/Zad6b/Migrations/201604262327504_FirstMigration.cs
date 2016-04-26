@@ -3,7 +3,7 @@ namespace Zad6b.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class AddBookPageCount : DbMigration
+    public partial class FirstMigration : DbMigration
     {
         public override void Up()
         {
@@ -24,7 +24,6 @@ namespace Zad6b.Migrations
                         Id = c.Int(nullable: false, identity: true),
                         BookTitle = c.String(),
                         ISBN = c.String(),
-                        pageCount = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id);
             
