@@ -7,12 +7,12 @@ namespace Zad6b.Migrations
     {
         public override void Up()
         {
-            AddColumn("public.Books", "PageCount", c => c.Int(nullable: false));
+            AddColumn("public.Books", "pageCount", c => c.Int(nullable: false));
         }
         
         public override void Down()
         {
-            DropColumn("public.Books", "PageCount");
+            DropColumn("public.Books", "pageCount");
         }
     }
 }
