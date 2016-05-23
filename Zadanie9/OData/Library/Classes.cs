@@ -1,0 +1,24 @@
+﻿namespace Library
+{
+    public class Store
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+    }
+
+    public class Game
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string CreatorCompany { get; set; }
+        public int Year { get; set; }
+        public int AgeRate { get; set; }
+    }
+
+    public class CardShirt
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+    }
+}
